@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-bash setup-env-linux.sh
+export JAVA_HOME=$PWD/jre8linux64
+export JETTY_HOME=$PWD/jetty9
+
+echo "JAVA_HOME="$JAVA_HOME
+echo "JETTY_HOME="$JETTY_HOME
 
 rm -rf $JETTY_HOME/logs
 rm -rf $JETTY_HOME/database
