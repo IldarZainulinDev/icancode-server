@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-JAVA_HOME=$PWD/jre8linux64
-JETTY_HOME=$PWD/jetty9
-APPLICATION_PORT=80
-DEBUG_PORT=8585
+export JAVA_HOME=$PWD/jre8linux64
+export JETTY_HOME=$PWD/jetty9
+export APPLICATION_PORT=80
+export DEBUG_PORT=8585
 
 echo "JAVA_HOME="$JAVA_HOME
 echo "JETTY_HOME="$JETTY_HOME
