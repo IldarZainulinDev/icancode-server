@@ -1,0 +1,9 @@
+{
+  "name": "icancode-server-diagnostic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "websocket": "^1.0.28"
+  }
+}
